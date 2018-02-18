@@ -1,0 +1,131 @@
+body{
+	background-color: #232526;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	color: #736D68;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey}
+
+  
+
+h1{
+	text-align: center;
+	color: grey;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+#home{
+	background: url(https://images.pexels.com/photos/9137/night-vintage-music-bokeh.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#homeContent{
+	padding: 20px;
+}
+
+#mainPic{
+	height: auto;
+	margin-top: 10px;
+}
+
+#bio{
+	padding:15px;
+}
+
+#bioContent{
+	color: #736D68;
+	padding:25px;
+	background-color: rgba(35,37,36,0.8);
+	height: 400px;
+	overflow: scroll;
+}
+
+#albumArt{
+	height: 500px;
+	width: 100%;
+}
+
+#disco{
+	padding-top: 25px;
+}
+
+#disco h3{
+	font-style: italic;
+}
+
+.navbar-brand{
+	font-family: 'Nosifer', cursive;
+	font-size: 30px;
+
+}
+
+.nav-item i{
+	color: white;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+#music{
+	padding-top:20px;
+	margin: auto;
+}
+
+#player{
+	padding-right: 500px;
+}
+
+#movies{
+	width: 100%;
+}
+
+
+.movieItem{
+
+	padding-top: 20px;
+	width: 100%;
+}
+
+#movieItemsSm{
+	margin: auto;
+}
+
+.buzLink{
+	width: 100%;
+	background-color: rgba(35,37,36,0.8);
+}
+
+.buzLinkSec{
+	padding-top: 10px;
+
+}
+
+
+
+#promo{
+	background-color: #000000;
+	position: fixed;
+	bottom:0px;
+   height:30px;
+   width:100%;
+   text-align: center;
+   height: 50px
+}
+
+#promo a{
+	color: #736D68;
+}
