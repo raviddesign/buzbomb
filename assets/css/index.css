@@ -90,6 +90,7 @@ h1{
 }
 
 #movies{
+	position: relative;
 	width: 100%;
 }
 
@@ -100,8 +101,17 @@ h1{
 	width: 100%;
 }
 
+.movie-link:hover{
+	transform: scale(1.2);
+	opacity:0.8;
+}
+
 #movieItemsSm{
 	margin: auto;
+}
+
+.btn{
+	transition: .5s;
 }
 
 .buzLink{
@@ -109,9 +119,20 @@ h1{
 	background-color: rgba(35,37,36,0.8);
 }
 
+.btn:hover{
+	transform: translateY(-3px);
+	box-shadow: 10px 10px 8px #888888;
+}
+
 .buzLinkSec{
 	padding-top: 10px;
 
+}
+
+#email{
+	text-align: center;
+	padding-top: 30px;
+	color: white;
 }
 
 
