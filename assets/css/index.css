@@ -28,7 +28,7 @@ h1{
 
 #home{
 	background: url(https://images.pexels.com/photos/9137/night-vintage-music-bokeh.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
-	background-attachment: fixed;
+	background-attachment:scroll;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
