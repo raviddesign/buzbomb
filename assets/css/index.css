@@ -113,6 +113,15 @@ h1{
 	margin: auto;
 }
 
+.screen-item{
+	background-color: transparent;
+}
+
+.screen-links{
+	text-align: center;
+	padding-top: 10px;
+}
+
 .btn{
 	transition: .5s;
 }
