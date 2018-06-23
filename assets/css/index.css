@@ -123,6 +123,12 @@ h1{
 	padding-top: 10px;
 }
 
+#wgae{
+	text-align: center;
+	text-transform: capitalize;
+
+}
+
 .btn{
 	transition: .5s;
 }
