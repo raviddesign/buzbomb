@@ -49,9 +49,10 @@ h1{
 
 #bioContent{
 	color: #736D68;
+	font-size: 25px;
 	padding:25px;
 	background-color: rgba(35,37,36,0.8);
-	height: 400px;
+	height: 460px;
 	overflow: scroll;
 }
 
