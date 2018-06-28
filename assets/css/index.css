@@ -27,18 +27,26 @@ h1{
 }
 
 #home{
-	background: url(https://images.pexels.com/photos/9137/night-vintage-music-bokeh.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+	min-height: 300px;
+	
+	/* background: url(https://images.pexels.com/photos/9137/night-vintage-music-bokeh.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
 	background-attachment:scroll;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 }
 
 #homeContent{
 	padding: 20px;
 }
 
-#mainPic{
+#bio-content{
+	padding: 40px;
+	font-size: 25px;
+	font-family: 'Markazi Text', serif;
+}
+
+/* #mainPic{
 	height: auto;
 	margin-top: 10px;
 }
@@ -54,7 +62,7 @@ h1{
 	background-color: rgba(35,37,36,0.8);
 	height: 460px;
 	overflow: scroll;
-}
+} */
 
 #albumArt{
 	height: 500px;
@@ -103,6 +111,10 @@ h1{
 
 	padding-top: 30px;
 	width: 100%;
+}
+
+.movie-link{
+	transition: all .2s;
 }
 
 .movie-link:hover{
