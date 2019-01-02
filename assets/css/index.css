@@ -27,13 +27,9 @@ h1{
 }
 
 hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 5px;
+	border-width: 5px;
+	width: 600px;
+	margin-bottom: 50px;
 }
 
 #home{
@@ -46,20 +42,23 @@ hr {
 	background-size: cover; */
 }
 
-#homeContent{
-	padding: 20px;
-}
+#mainPic{
+	padding-top: 30px;
 
+}
 #bio-content{
 	padding: 40px;
 	font-size: 25px;
 	font-family: 'Markazi Text', serif;
 }
 
+
+
 .text-content{
 	padding: 40px;
 	font-size: 25px;
 	font-family: 'Markazi Text', serif;
+	text-align: center;
 }
 
 #movie-content{
@@ -144,6 +143,14 @@ hr {
 
 #movieItemsSm{
 	margin: auto;
+}
+
+#podcast-content{
+	padding-bottom: 80px;
+}
+
+.podcast-item{
+	padding-top: 20px;
 }
 
 .screen-item{
