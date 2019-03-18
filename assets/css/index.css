@@ -1,68 +1,66 @@
-body{
-	background-color: #232526;
-	margin-top: 70px;
-	margin-bottom: 100px;
-	color: #736D68;
+body {
+  background-color: #232526;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  color: #736d68;
 }
 
 body::-webkit-scrollbar {
-    width: 1em;
+  width: 1em;
 }
- 
+
 body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
-  outline: 1px solid slategrey}
+  outline: 1px solid slategrey;
+}
 
-  
-
-h1{
-	text-align: center;
-	color: grey;
-	font-size: 45px;
-	text-transform: uppercase;
+h1 {
+  text-align: center;
+  color: grey;
+  font-size: 45px;
+  text-transform: uppercase;
 }
 
 hr {
-	border-width: 5px;
-	width: 600px;
-	margin-bottom: 50px;
+  border-width: 5px;
+  width: 600px;
+  margin-bottom: 50px;
 }
 
-#home{
-	min-height: 100px;
-	
-	/* background: url(https://images.pexels.com/photos/9137/night-vintage-music-bokeh.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+#home {
+  min-height: 100px;
+
+  /* background: url(https://images.pexels.com/photos/9137/night-vintage-music-bokeh.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
 	background-attachment:scroll;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover; */
 }
 
-#mainPic{
-	padding-top: 30px;
-
+#mainPic {
+  padding-top: 30px;
 }
-#bio-content{
-	padding: 40px;
-	font-size: 25px;
-	font-family: 'Markazi Text', serif;
+#bio-content {
+  padding: 40px;
+  font-size: 25px;
+  font-family: "Markazi Text", serif;
 }
 
 /* <iframe style="border: 0; width: 350px; height: 621px;" src="https://bandcamp.com/EmbeddedPlayer/album=1932209361/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://buzbomb.bandcamp.com/album/the-fabulous-stoned-out-zone">THE FABULOUS STONED OUT ZONE by Buz Bomb</a></iframe> */
 
-.text-content{
-	padding: 40px;
-	font-size: 25px;
-	font-family: 'Markazi Text', serif;
-	text-align: center;
+.text-content {
+  padding: 40px;
+  font-size: 25px;
+  font-family: "Markazi Text", serif;
+  text-align: center;
 }
 
-#movie-content{
-	text-align: center;
+#movie-content {
+  text-align: center;
 }
 
 /* #mainPic{
@@ -83,129 +81,137 @@ hr {
 	overflow: scroll;
 } */
 
-#albumArt{
-	height: 500px;
-	width: 100%;
+#albumArt {
+  height: 500px;
+  width: 100%;
 }
 
-#disco{
-	padding-top: 25px;
+#disco {
+  padding-top: 25px;
 }
 
-#disco h3{
-	font-style: italic;
+#disco h3 {
+  font-style: italic;
 }
 
-.navbar-brand{
-	font-family: 'Nosifer', cursive;
-	font-size: 30px;
-
+.navbar-brand {
+  font-family: "Nosifer", cursive;
+  font-size: 30px;
 }
 
-.nav-item i{
-	color: white;
-	font-size: 30px;
-	padding-bottom: 20px;
+.nav-item i {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 
-#music{
-	padding-top:20px;
-	margin: auto;
+#music {
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
 }
 
-#player{
-	padding-right: 500px;
+#music-feature {
+  padding-bottom: 30px;
 }
 
-#movie-header{
-	padding-top: 1px;
-}
-#movies{
-	padding-top:60px;
-	width: 100%;
+#fabulous {
+  height: 350px;
 }
 
-
-.movieItem{
-
-	padding-top: 30px;
-	width: 100%;
+#album-price {
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
-.movie-link{
-	transition: all .2s;
+#player {
+  padding-right: 500px;
 }
 
-.movie-link:hover{
-	transform: scale(1.2);
-	opacity:0.8;
+#movie-header {
+  padding-top: 1px;
+}
+#movies {
+  padding-top: 60px;
+  width: 100%;
 }
 
-#movieItemsSm{
-	margin: auto;
+.movieItem {
+  padding-top: 30px;
+  width: 100%;
 }
 
-#podcast-content{
-	padding-bottom: 80px;
+.movie-link {
+  transition: all 0.2s;
 }
 
-.podcast-item{
-	padding-top: 20px;
+.movie-link:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
 }
 
-.screen-item{
-	background-color: transparent;
-	margin-top: 10px;
+#movieItemsSm {
+  margin: auto;
 }
 
-.screen-links{
-	text-align: center;
-	padding-top: 10px;
+#podcast-content {
+  padding-bottom: 80px;
 }
 
-#wgae{
-	text-align: center;
-	text-transform: capitalize;
-
+.podcast-item {
+  padding-top: 20px;
 }
 
-.btn{
-	transition: .5s;
+.screen-item {
+  background-color: transparent;
+  margin-top: 10px;
 }
 
-.buzLink{
-	width: 100%;
-	background-color: rgba(35,37,36,0.8);
+.screen-links {
+  text-align: center;
+  padding-top: 10px;
 }
 
-.btn:hover{
-	transform: translateY(-3px);
-	box-shadow: 10px 10px 8px #888888;
+#wgae {
+  text-align: center;
+  text-transform: capitalize;
 }
 
-.buzLinkSec{
-	padding-top: 10px;
-
+.btn {
+  transition: 0.5s;
 }
 
-#email{
-	text-align: center;
-	padding-top: 30px;
-	color: white;
+.buzLink {
+  width: 100%;
+  background-color: rgba(35, 37, 36, 0.8);
 }
 
-
-
-#promo{
-	background-color: #000000;
-	position: fixed;
-	bottom:0px;
-   height:30px;
-   width:100%;
-   text-align: center;
-   height: 50px
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 10px 10px 8px #888888;
 }
 
-#promo a{
-	color: #736D68;
+.buzLinkSec {
+  padding-top: 10px;
+}
+
+#email {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+#promo {
+  background-color: #000000;
+  position: fixed;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+
+#promo a {
+  color: #736d68;
 }
