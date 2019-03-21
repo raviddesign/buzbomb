@@ -18,6 +18,11 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 
+.embedimage {
+  width: 100%;
+  height: 315px;
+}
+
 h1 {
   text-align: center;
   color: grey;
