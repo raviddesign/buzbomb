@@ -190,6 +190,7 @@ hr {
 .buzLink {
   width: 100%;
   background-color: rgba(35, 37, 36, 0.8);
+  font-size: 20px;
 }
 
 .btn:hover {
