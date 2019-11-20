@@ -52,7 +52,7 @@ hr {
 #bio-content {
   padding: 40px;
   font-size: 25px;
-  font-family: "Markazi Text", serif;
+  font-family: 'Markazi Text', serif;
 }
 
 /* <iframe style="border: 0; width: 350px; height: 621px;" src="https://bandcamp.com/EmbeddedPlayer/album=1932209361/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://buzbomb.bandcamp.com/album/the-fabulous-stoned-out-zone">THE FABULOUS STONED OUT ZONE by Buz Bomb</a></iframe> */
@@ -60,7 +60,7 @@ hr {
 .text-content {
   padding: 40px;
   font-size: 25px;
-  font-family: "Markazi Text", serif;
+  font-family: 'Markazi Text', serif;
   text-align: center;
 }
 
@@ -100,7 +100,7 @@ hr {
 }
 
 .navbar-brand {
-  font-family: "Nosifer", cursive;
+  font-family: 'Nosifer', cursive;
   font-size: 30px;
 }
 
@@ -129,10 +129,13 @@ hr {
   font-weight: 500;
   text-decoration: underline;
 }
-
-#player {
-  padding-right: 500px;
-}
+/* 
+.player {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+} */
 
 #movie-header {
   padding-top: 1px;
